@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="193148" started-at="2018-08-26T15:01:08Z" finished-at="2018-08-26T15:04:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="193148" started-at="2018-08-26T15:01:08Z" finished-at="2018-08-26T15:04:21Z">
+      <class name="com.trivago.test.SubscribeNewsletterTest">
+        <test-method status="PASS" signature="initiation()[pri:0, instance:com.trivago.test.SubscribeNewsletterTest@7c0e2abd]" name="initiation" is-config="true" duration-ms="31445" started-at="2018-08-26T21:01:59Z" finished-at="2018-08-26T21:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method status="PASS" signature="verifySubscribeNewsletter()[pri:0, instance:com.trivago.test.SubscribeNewsletterTest@7c0e2abd]" name="verifySubscribeNewsletter" duration-ms="481" started-at="2018-08-26T21:02:30Z" finished-at="2018-08-26T21:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscribeNewsletter -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.trivago.test.SubscribeNewsletterTest@7c0e2abd]" name="endTest" is-config="true" duration-ms="1069" started-at="2018-08-26T21:02:31Z" finished-at="2018-08-26T21:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.trivago.test.SubscribeNewsletterTest -->
+      <class name="com.trivago.test.SearchByLocationTest">
+        <test-method status="PASS" signature="initiation()[pri:0, instance:com.trivago.test.SearchByLocationTest@4de8b406]" name="initiation" is-config="true" duration-ms="33429" started-at="2018-08-26T21:01:08Z" finished-at="2018-08-26T21:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method status="PASS" signature="searchLocation()[pri:0, instance:com.trivago.test.SearchByLocationTest@4de8b406]" name="searchLocation" duration-ms="2049" started-at="2018-08-26T21:01:41Z" finished-at="2018-08-26T21:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLocation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.trivago.test.SearchByLocationTest@4de8b406]" name="endTest" is-config="true" duration-ms="2185" started-at="2018-08-26T21:01:44Z" finished-at="2018-08-26T21:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.trivago.test.SearchByLocationTest -->
+      <class name="com.trivago.test.LocationSelectionTest">
+        <test-method status="PASS" signature="initiation()[pri:0, instance:com.trivago.test.LocationSelectionTest@402f32ff]" name="initiation" is-config="true" duration-ms="29581" started-at="2018-08-26T21:02:56Z" finished-at="2018-08-26T21:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method status="PASS" signature="verifyLocationSelection()[pri:0, instance:com.trivago.test.LocationSelectionTest@402f32ff]" name="verifyLocationSelection" duration-ms="22908" started-at="2018-08-26T21:03:26Z" finished-at="2018-08-26T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationSelection -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.trivago.test.LocationSelectionTest@402f32ff]" name="endTest" is-config="true" duration-ms="1076" started-at="2018-08-26T21:03:49Z" finished-at="2018-08-26T21:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.trivago.test.LocationSelectionTest -->
+      <class name="com.trivago.test.NavigateToDestinationTest">
+        <test-method status="PASS" signature="initiation()[pri:0, instance:com.trivago.test.NavigateToDestinationTest@48eff760]" name="initiation" is-config="true" duration-ms="23252" started-at="2018-08-26T21:02:32Z" finished-at="2018-08-26T21:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method status="PASS" signature="VerifyNavigateDestination()[pri:0, instance:com.trivago.test.NavigateToDestinationTest@48eff760]" name="VerifyNavigateDestination" duration-ms="308" started-at="2018-08-26T21:02:55Z" finished-at="2018-08-26T21:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNavigateDestination -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.trivago.test.NavigateToDestinationTest@48eff760]" name="endTest" is-config="true" duration-ms="1045" started-at="2018-08-26T21:02:55Z" finished-at="2018-08-26T21:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.trivago.test.NavigateToDestinationTest -->
+      <class name="com.trivago.test.MostSearchedTagTest">
+        <test-method status="PASS" signature="initiation()[pri:0, instance:com.trivago.test.MostSearchedTagTest@573f2bb1]" name="initiation" is-config="true" duration-ms="30347" started-at="2018-08-26T21:03:50Z" finished-at="2018-08-26T21:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method status="PASS" signature="verifySearchByMostSearchedTag()[pri:0, instance:com.trivago.test.MostSearchedTagTest@573f2bb1]" name="verifySearchByMostSearchedTag" duration-ms="40" started-at="2018-08-26T21:04:20Z" finished-at="2018-08-26T21:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByMostSearchedTag -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.trivago.test.MostSearchedTagTest@573f2bb1]" name="endTest" is-config="true" duration-ms="1029" started-at="2018-08-26T21:04:20Z" finished-at="2018-08-26T21:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.trivago.test.MostSearchedTagTest -->
+      <class name="com.trivago.test.ContactUsTest">
+        <test-method status="PASS" signature="initiation()[pri:0, instance:com.trivago.test.ContactUsTest@3c756e4d]" name="initiation" is-config="true" duration-ms="9753" started-at="2018-08-26T21:01:46Z" finished-at="2018-08-26T21:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiation -->
+        <test-method status="PASS" signature="verifyContactUs()[pri:0, instance:com.trivago.test.ContactUsTest@3c756e4d]" name="verifyContactUs" duration-ms="2121" started-at="2018-08-26T21:01:55Z" finished-at="2018-08-26T21:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.trivago.test.ContactUsTest@3c756e4d]" name="endTest" is-config="true" duration-ms="1019" started-at="2018-08-26T21:01:58Z" finished-at="2018-08-26T21:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.trivago.test.ContactUsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
