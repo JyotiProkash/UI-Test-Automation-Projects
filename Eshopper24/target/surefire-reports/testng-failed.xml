@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]" parallel="classes">
+  <test name="Surefire test">
+    <classes>
+      <class name="org.automation.eshopper.test.TestElectronicsCategory"/>
+      <class name="org.automation.eshopper.test.TestHomePage"/>
+      <class name="org.automation.eshopper.test.TestLogin"/>
+      <class name="org.automation.eshopper.test.TestMenCategory"/>
+      <class name="org.automation.eshopper.test.TestRegister"/>
+      <class name="org.automation.eshopper.test.TestWomenCategory"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)" parallel="classes">
+    <classes>
+      <class name="org.automation.eshopper.test.TestRegister">
+        <methods>
+          <include name="verifyBlankRegistration"/>
+        </methods>
+      </class> <!-- org.automation.eshopper.test.TestRegister -->
+      <class name="org.automation.eshopper.test.TestElectronicsCategory">
+        <methods>
+          <include name="initiation"/>
+          <include name="verifyCalculatorsCategoryNavigateCalculatorsListPage"/>
+          <include name="verifyElectronicsCategoryNavigatesElectronicsListPage"/>
+          <include name="verifyAccessoriesCategoryNavigatesAccessoriesListPage"/>
+        </methods>
+      </class> <!-- org.automation.eshopper.test.TestElectronicsCategory -->
+      <class name="org.automation.eshopper.test.TestLogin">
+        <methods>
+          <include name="verifyInvalidLogin"/>
+        </methods>
+      </class> <!-- org.automation.eshopper.test.TestLogin -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
