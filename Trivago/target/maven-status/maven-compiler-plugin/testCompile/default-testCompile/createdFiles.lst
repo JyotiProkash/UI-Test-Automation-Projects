@@ -1,0 +1,8 @@
+com\trivago\test\NavigateToDestinationTest.class
+com\trivago\test\SubscribeNewsletterTest.class
+com\trivago\test\LocationSelectionTest.class
+com\trivago\test\MostSearchedTagTest.class
+com\trivago\core\WindowHandler.class
+com\trivago\core\TestBase.class
+com\trivago\test\SearchByLocationTest.class
+com\trivago\test\ContactUsTest.class
