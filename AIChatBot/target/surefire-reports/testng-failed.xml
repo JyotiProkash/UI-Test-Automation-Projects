@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testscripts.OptimizedAllTestUserPanel"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testscripts.OptimizedAllTestUserPanel">
+        <methods>
+          <include name="verifyFirstImpressionQuestion"/>
+          <include name="verifyFirstImpressionRatingSelection"/>
+          <include name="verifyHowOftenDrinkAtHomeQuestionTimeSelection"/>
+          <include name="tearDown"/>
+          <include name="verifyValidAnswerFirstQuestionDrinkingScene"/>
+          <include name="verifyChuHiDrinkOutsideHomeQuestionTimeSelectionSendButtonClick"/>
+          <include name="verifyChuHiDrinkOutsideHomeQuestion"/>
+          <include name="verifyChuHiTypeQuestionSelectionSendButtonClick"/>
+          <include name="verifyChuHiDrinkOutsideHomeQuestionTimeSelection"/>
+          <include name="verifyGenderQuestion"/>
+          <include name="initiation"/>
+          <include name="verifyGenderSelectionSendButtonClick"/>
+          <include name="verifyFirstImpressionRatingSelectionSendButtonClick"/>
+          <include name="verifyLogoutFromChatBotApplication"/>
+          <include name="verifyChuHiTypeQuestion"/>
+          <include name="verifyFirstQuestionDrinkingScene"/>
+          <include name="verifyValidAnswerSecondQuestionDrinkingScene"/>
+          <include name="verifyWhenDrinkQuestion"/>
+          <include name="verifyAgeSelectionSendButtonClick"/>
+          <include name="verifySecondQuestionDrinkingScene"/>
+          <include name="verifyChatProcessEnd"/>
+          <include name="verifyValidAnswerSecondQuestionDrinkingSceneSendButtonClick"/>
+          <include name="verifyDeepdigFlow"/>
+          <include name="verifyBrandDrinkAtHomeQuestionSelection"/>
+          <include name="verifyDrinkingSceneStructureEnd"/>
+          <include name="verifyTextVerificationTargetProfileEnd"/>
+          <include name="verifyHowOftenDrinkAtHomeQuestionTimeSelectionSendButtonClick"/>
+          <include name="verifyValidDrinkTimeForChuHiQuestionSendButtonClick"/>
+          <include name="verifyOpenChatWindow"/>
+          <include name="verifyChuHiTypeQuestionSelection"/>
+          <include name="verifyValidDrinkTimeForChuHiQuestion"/>
+          <include name="verifyBrandDrinkAtHomeQuestionSelectionSendButtonClick"/>
+          <include name="verifyValidAnswerFirstQuestionDrinkingSceneSendButtonClick"/>
+          <include name="verifyStartButtonClick"/>
+          <include name="verifyBrandDrinkAtHomeQuestion"/>
+          <include name="verifyAgeQuestion"/>
+          <include name="verifyAgeSelection"/>
+          <include name="verifyHowOftenDrinkAtHomeQuestion"/>
+          <include name="verifyTestOrAromaQuestion"/>
+        </methods>
+      </class> <!-- testscripts.OptimizedAllTestUserPanel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
