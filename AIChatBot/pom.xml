@@ -18,7 +18,7 @@
 		<apache.poi.ooxml.version>3.16</apache.poi.ooxml.version>
 		<log4j.version>1.2.17</log4j.version>
 		<log4j.api.version>2.8.2</log4j.api.version>
-		<log4j.core.version>2.8.2</log4j.core.version>
+		<log4j.core.version>2.13.2</log4j.core.version>
 		<extents.report.version>2.41.2</extents.report.version>
 		<surefire.plugin.version>2.18.1</surefire.plugin.version>
 		<compiler.plugin.version>2.4</compiler.plugin.version>
