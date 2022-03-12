@@ -14,8 +14,8 @@
 		<webdrivermanager.chrome.version>3.7.1</webdrivermanager.chrome.version>
 		<selenium.java.version>3.13.0</selenium.java.version>
 		<testng.version>6.9.10</testng.version>
-		<apache.poi.version>3.16</apache.poi.version>
-		<apache.poi.ooxml.version>3.16</apache.poi.ooxml.version>
+		<apache.poi.version>5.2.1</apache.poi.version>
+		<apache.poi.ooxml.version>5.2.1</apache.poi.ooxml.version>
 		<log4j.api.version>2.17.2</log4j.api.version>
 		<log4j.core.version>2.17.2</log4j.core.version>
 		<extents.report.version>2.41.2</extents.report.version>
