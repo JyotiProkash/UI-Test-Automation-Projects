@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-		<webdrivermanager.chrome.version>3.7.1</webdrivermanager.chrome.version>
+		<webdrivermanager.chrome.version>6.1.0</webdrivermanager.chrome.version>
 		<selenium.java.version>3.13.0</selenium.java.version>
 		<testng.version>6.9.10</testng.version>
 		<apache.poi.version>5.2.1</apache.poi.version>
